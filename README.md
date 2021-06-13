@@ -5,12 +5,33 @@
 </div>
 <br/>
 
+<div align="center">
+  
+  <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=8be9fd&logo=instapaper"/>
+  <img src="https://img.shields.io/static/v1?label=Node&message=V15.12.0&color=8be9fd&logo=node.js"/> 
+  <img src="https://img.shields.io/static/v1?label=Typescript&message=V4.3.2&color=8be9fd&logo=typescript"/> 
+  <img src="https://img.shields.io/static/v1?label=Yarn&message=V1.22.0&color=8be9fd&logo=yarn"/>
+  <img src="https://img.shields.io/static/v1?label=React&message=V17.0.2&color=8be9fd&logo=react"/>
+  <img src="https://img.shields.io/static/v1?label=Deploy&message=Netlify&color=8be9fd&logo=netlify"/> 
+</div>
+<br/>
+
 <h4 align="center">Status: 🏗️ Planning more about project 🏗️</h4>
+<br/>
+
+<p align="center">
+  <a href="#instruction">Instruções para a equipe</a> •
+  <a href="#tech">Technologies</a> •
+  <a href="#features">Features</a> •
+  <a href="#author">Author</a> •
+  <a href="#contributors">Contributors</a> •
+  <a href="https://github.com/Vh-Cloud/HAYS/blob/main/LICENSE">License</a>
+</p>
 <br/>
 
 ---
 <small>Caso você estejá participando do projeto, siga as instruções</small>
-<h3>Instruções</h3>
+<h3 id="instruction">Instruções</h3>
 
 #### FOCO:
 <span>O projeto tem como base, o proposito de ajudar as pessoas leigas pela internet a terem
@@ -30,29 +51,34 @@ as pessoas dizerem o que acharam do nosso trabalho e dos nossos formulários.
 #### Equipe:
 <span>nossa equipe será dividida em três
 
-- 1 focado em pesquisar vulnerabilidades de engenharia social
-- 2 focado no design da aplicação
-- 3 focado no desenvolvimento da aplicação
+- 1 focado em pesquisar vulnerabilidades de engenharia social (VH)
+- 2 focado no design da aplicação (User-kbite)
+- 3 focado no desenvolvimento da aplicação (Mr.soulfox)
 </span>
 
 ---
 <br/>
 
-
-<h3>🧰 Technologies</h3>
+<h3 id="tech">🧰 Technologies</h3>
 
 #### Front-end 📰
   - [SASS](https://sass-lang.com/)
   - [Node.js](https://nodejs.org/)
   - [React](https://reactjs.org/)
 
-#### Back-end 🎲 (🏗️ In planning... 🏗️)
+#### Back-end 🎲
   - [TypeScript](https://typescriptlang.org/)
-  - [express.js](https://expressjs.com/)
+  - [Express.js](https://expressjs.com/)
+  - [Prisma 2](https://prisma.io.com/)
+  - [Postgresql](https://www.postgresql.org/)
+<br/>
+
+<h3 id="features">⚙️ Features</h3>
+  <small>(🏗️ In planning all features 🏗️)</small> 
 <br/>
 
 ## Author
-<div>
+<div id="author">
   <a href="https://github.com/VhCompany1">
     <img style="border-radius: 50%;" src="https://github.com/VhCompany1.png" width="100px;"/>
   </a>
@@ -61,7 +87,7 @@ as pessoas dizerem o que acharam do nosso trabalho e dos nossos formulários.
 </div>
 
 ## Contributors
-<div style="text-align: justify;">
+<div style="text-align: justify;" id="contributors">
   <div>
     <a href="https://github.com/mr-soulfox">
       <img style="border-radius: 50%;" src="https://github.com/mr-soulfox.png" width="60px;"/>
