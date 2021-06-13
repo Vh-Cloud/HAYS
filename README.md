@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="./logo.png" width="110px;"/>
   <h1>🛡️HAYS🛡️</h1>
   <small>New project by VH'Cloud, to protect people's unsuspecting in internet world.</small>
 </div>
