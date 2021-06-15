@@ -39,13 +39,9 @@ contas mais seguras, ensinando como funciona o mundo do scan e mostrando
 as formas que elas podem ser enganadas nos APPs ou jogos que elas usam.
 </span> 
 
-#### Layout (Versão inicial):
-<span>Teremos a aba de categorias, nessa aba terão diversos games/apps assim
-ira mostrar vulnerabilidades de engenharia social no sistema escolhido e modos de
-scan fácil e dando dicas de como se proteger mais naquele ambiente. Teremos a
-aba de vídeos onde colocaremos vídeos de cunho educativo sobre segurança de
-informação, hacking e engenharia social. Teremos também a área de feedback para
-as pessoas dizerem o que acharam do nosso trabalho e dos nossos formulários.
+#### Layout (Versão atual):
+<span>Olhe a pasta <a href="https://github.com/Vh-Cloud/HAYS/tree/main/Design">Design</a> 
+  para ver como está o layout ate o momento
 </span>
 
 #### Equipe:
@@ -68,7 +64,7 @@ as pessoas dizerem o que acharam do nosso trabalho e dos nossos formulários.
 
 #### Back-end 🎲
   - [TypeScript](https://typescriptlang.org/)
-  - [Express.js](https://expressjs.com/)
+  - [NestJS](https://nestjs.com/)
   - [Prisma 2](https://prisma.io.com/)
   - [Postgresql](https://www.postgresql.org/)
 <br/>
