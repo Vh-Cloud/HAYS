@@ -16,7 +16,7 @@
 </div>
 <br/>
 
-<h4 align="center">Status: 🏗️ Planning more about project 🏗️</h4>
+<h4 align="center">Status: 🏗️ In construction 🏗️</h4>
 <br/>
 
 <p align="center">
@@ -70,7 +70,15 @@ as formas que elas podem ser enganadas nos APPs ou jogos que elas usam.
 <br/>
 
 <h3 id="features">⚙️ Features</h3>
-  <small>(🏗️ In planning all features 🏗️)</small> 
+  
+  #### Front-end 📰
+  - [ ] Category filter
+  
+  #### Back-end 🎲
+  - [ ] ADM acess to add more videos and articles (.md)
+  - [ ] Send mails and save mails
+  - [ ] Create new categorys
+  
 <br/>
 
 ## Author
