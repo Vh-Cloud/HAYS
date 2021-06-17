@@ -1,5 +1,10 @@
 @mixin flexline(){
     display: flex;
+    align-items: center;
+}
+
+@mixin flexcenter() {
+    display: flex;
     justify-content: center;
     align-items: center;
 }

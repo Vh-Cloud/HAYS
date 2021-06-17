@@ -1,22 +1,38 @@
 #header {
     background-color: $hbgc;
 
+    height: 70px;
+    @include flexline();
+
+    a{
+        text-decoration: none;   
+    }   
+
     #link{
+        display: inline;
+        justify-content: right;
+        align-items: right;
+        text-align: right;
+    }
+
+    .link{
+        font-size: 20px;
+        font-family: $htf;
+        color: $htc;
+
         text-align: right;
     }   
 
-    a{
-        font-size: 25px;
-        text-decoration: none;
-        font-family: $htf;
-        color: $htc;
-    }   
 
-    #title{
-
+    .title{
         font-family: $htf;
         color: $htc;
         font-size: 30px;
         text-align: left;
+    }
+
+    #menu {
+        width: 50px;
+        height: 50px;
     }
 }
