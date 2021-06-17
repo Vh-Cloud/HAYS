@@ -2,17 +2,21 @@
   background-color: white;
 }
 
-#header p {
+#header #link {
   text-align: right;
 }
 
 #header a {
+  font-size: 25px;
   text-decoration: none;
   font-family: Arial, sans-serif;
   color: #00c3ff;
 }
 
 #header #title {
+  font-family: Arial, sans-serif;
+  color: #00c3ff;
+  font-size: 30px;
   text-align: left;
 }
 /*# sourceMappingURL=App.css.map */

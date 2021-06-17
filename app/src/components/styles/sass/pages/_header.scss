@@ -1,17 +1,22 @@
 #header {
     background-color: $hbgc;
 
-    p{
+    #link{
         text-align: right;
-    }
+    }   
 
     a{
+        font-size: 25px;
         text-decoration: none;
         font-family: Arial, sans-serif;
         color: $htc;
     }   
 
     #title{
+
+        font-family: Arial, sans-serif;
+        color: $htc;
+        font-size: 30px;
         text-align: left;
     }
 }
