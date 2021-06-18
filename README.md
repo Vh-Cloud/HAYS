@@ -60,10 +60,12 @@ as formas que elas podem ser enganadas nos APPs ou jogos que elas usam.
 #### Front-end 📰
   - [SASS](https://sass-lang.com/)
   - [Node.js](https://nodejs.org/)
+  - [TypeScript](https://typescriptlang.org/)
   - [React](https://reactjs.org/)
 
 #### Back-end 🎲
   - [TypeScript](https://typescriptlang.org/)
+  - [Node.js](https://nodejs.org/)
   - [NestJS](https://nestjs.com/)
   - [Prisma 2](https://prisma.io.com/)
   - [Postgresql](https://www.postgresql.org/)
