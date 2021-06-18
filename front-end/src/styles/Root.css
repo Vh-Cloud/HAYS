@@ -1,0 +1,89 @@
+/*Fonts - Space Mono (700)*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.Nav-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+}
+
+.Nav-container > span > *{
+    font-family: 'Space Mono';
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #007FFF;
+}
+
+/*NO MODE RESPONSIVE*/
+.Nav span > *:hover {
+    color: #005fff;
+}
+
+.Nav span > * {
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #4169E1;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+}
+
+/*RESPONSIVE MODE*/
+.Nav-menu {
+    width: 90px;
+    height: 110px;
+    position: absolute;
+    top: -30px;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: #F1F1F1;
+    opacity: 0%;
+    animation: openMenu 0.4s linear both;
+}
+
+.Nav-menu span {
+    margin: 9px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Nav-menu span:hover {
+    color: #009fff;
+}
+
+.Nav-menu span > * {
+    color: #4169E1;
+}
+
+.Nav-close-menu {
+    font-size: 1.4rem;
+    color: #003FFF;
+    font-weight: 700;
+    margin-right: -10px;
+}
+
+/*ID TO ANIMATE*/
+#openMenu {
+    animation: openMenu 0.4s linear both;
+}
+#closeMenu {
+    animation: openMenu 0.4s linear alternate both;
+}
+
+@keyframes openMenu {
+    from {
+        opacity: 0%;
+        top: -30px;
+    } 
+    to {
+        opacity: 100%;
+        top: 60px;
+    }
+}
