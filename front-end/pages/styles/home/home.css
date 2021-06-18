@@ -1,0 +1,67 @@
+/*IMPORTS*/
+.Home-page-welcome {
+  width: 100vw;
+  height: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../../../assets/welcome.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Home-page-welcome > img {
+  width: 89px;
+}
+
+.Home-page-welcome > span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 305px) {
+  .Home-page-welcome > span {
+    font-size: 1.5rem;
+  }
+}
+
+.Home-page-welcome > .Home-page-btn-container {
+  margin-top: 10px;
+}
+
+.Home-page-welcome > .Home-page-btn-container a {
+  width: 113px;
+  margin: 0 30px;
+  color: #f2f2f2;
+  font-weight: 700;
+  background-color: #007fff;
+  border-radius: 6px;
+  padding: 5px;
+  text-transform: uppercase;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.Home-page-welcome > .Home-page-btn-container a:hover {
+  background-color: #0070e0;
+}
+
+@media screen and (max-width: 305px) {
+  .Home-page-welcome > .Home-page-btn-container a {
+    margin: 0 10px;
+  }
+}
+/*# sourceMappingURL=home.css.map */
