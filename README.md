@@ -75,11 +75,12 @@ as formas que elas podem ser enganadas nos APPs ou jogos que elas usam.
   
   #### Front-end 📰
   - [ ] Category filter
+  - [ ] Translate system
   
   #### Back-end 🎲
   - [ ] ADM acess to add more videos and articles (.md)
   - [ ] Send mails and save mails
-  - [ ] Create new categorys
+  - [ ] Create new categories
   
 <br/>
 
