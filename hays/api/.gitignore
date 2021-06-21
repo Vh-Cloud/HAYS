@@ -1,0 +1,5 @@
+#test api
+./database
+node_modules
+*.json
+*.lock
